@@ -139,20 +139,20 @@ var params = {
 var manager = new WebVRManager(renderer, effect, params);
 
 // Create 3D objects.
-var geometry = new THREE.BoxGeometry(0.5, 0.5, 0.5);
-var material = new THREE.MeshNormalMaterial();
-var cube = new THREE.Mesh(geometry, material);
+//var geometry = new THREE.BoxGeometry(0.5, 0.5, 0.5);
+//var material = new THREE.MeshNormalMaterial();
+//var cube = new THREE.Mesh(geometry, material);
 
 // Position cube mesh
-cube.position.z = -1;
+//cube.position.z = -1;
 
 
 // Add cube mesh to your three.js scene
-scene.add(cube);
+//scene.add(cube);
 // Request animation frame loop function
 function animate(timestamp) {
   // Apply rotation to cube mesh
-  cube.rotation.y += 0.01;
+  //cube.rotation.y += 0.01;
 
   // Update VR headset position and apply to camera.
   controls.update();
